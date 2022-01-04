@@ -18,6 +18,7 @@ domains:
   - '*.my.domain.tld'
 certfile: fullchain.pem
 keyfile: privkey.pem
+challenge_alias: aliasdomain.tld # optional (see: https://github.com/acmesh-official/acme.sh/wiki/DNS-alias-mode)
 dns:
   provider: dns_freedns
   env: 

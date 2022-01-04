@@ -13,6 +13,7 @@
     "domains": [null],
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
+    "challenge_alias": "str",
     "dns": {}
   },
   "schema": {
@@ -20,6 +21,7 @@
     "domains": ["str"],
     "certfile": "str",
     "keyfile": "str",
+    "challenge_alias": "str?",
     "dns": {
       "provider": "str",
       "env": ["str"]

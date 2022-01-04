@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-RUN apk add --no-cache openssl && \
+RUN apk add --no-cache bash openssl && \
     rm -rf /var/cache/apk/*
 
 RUN curl https://get.acme.sh | sh
